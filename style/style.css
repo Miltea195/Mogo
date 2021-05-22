@@ -353,3 +353,43 @@ h1:after{
 	text-transform: uppercase;
 }
 /*COUNT - end*/
+
+
+/* SERVICES - start */
+.services{
+	margin: 110px auto;
+}
+.services__list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.services__item{
+	width: 32%;
+	padding: 40px 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: start;
+}
+img{
+	margin-right: 20px;
+	margin-top: 6px;
+}
+.services__content{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: start;
+}
+.services__title{
+	margin: 6px 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+}
+.services__text{
+	text-align: left;
+	margin: 6px 0;
+}
+/* SERVICES - end */
